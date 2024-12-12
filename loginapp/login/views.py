@@ -1177,10 +1177,9 @@ def accept(request):
        
         if action == "accept":
             
-            
+            location = request.GET.get("location")
             date = request.GET.get("date")
             time = request.GET.get("time")
-            location = request.POST.get("location")
             
             
             start_datetime = f"{date.replace('-','')}T{time.replace(':','')}00Z"
@@ -1257,7 +1256,7 @@ def accept(request):
                 <ul>
                     <li><strong>Date:</strong> {date}</li>
                     <li><strong>Time:</strong> {time}</li>
-                    <li><strong>Location:</strong>{location}</li>
+                    <li><strong>Location:</strong> {location}</li>
                 </ul>
             
                 <p>You can <a href="{calender_link}" target="_blank">add this meeting to your Google Calendar</a>.</p>
@@ -1276,7 +1275,7 @@ def accept(request):
 
         else:
             email_body = f"""
-<html>
+        <html>
         <head>
         <style>
         body {{
@@ -1338,15 +1337,16 @@ def accept(request):
             <p>Your mentor has rejected to have a meeting</p>
         </body>
         </html>
-"""
-        send_mail(
-            subject="Meeting requested",
-            message="Response for meeting",
-            from_email = "nbaggie2027@gmail.com",
-            recipient_list=[email],
-            html_message=email_body,
-        )
-        return HttpResponse("Email sent successfully")
+"""     
+            print("Email",email)
+            send_mail(
+                subject="Meeting requested",
+                message="Response for meeting",
+                from_email = "nbaggie2027@gmail.com",
+                recipient_list=[email],
+                html_message=email_body
+            )
+            return HttpResponse("Email sent successfully")
 
 
 

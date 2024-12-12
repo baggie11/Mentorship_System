@@ -71,10 +71,14 @@
             <input type="hidden" name="register" value="{{ regno }}" />
             <input type="hidden" name="date" value="{{ date }}" />
             <input type="hidden" name="time" value="{{ time }}" />
+            
+            <label>Enter the meeting location</label>
+            <input name = "location" type = "text"/>
+            <br/>
             <button type="submit" name="action" value="accept">Accept</button>
             <button type="submit" name="action" value="reject">Reject</button>
-            <label>Enter the location of the meeting:</label>
-            <input name="location" placeholder="Enter the location of the meeting" />
+            
+
         </form>
         <p>You can <a href="{{ calendar_link }}" target="_blank">add this meeting to your Google Calendar</a>.</p>
         <p>Please contact your mentor for more details.</p>
