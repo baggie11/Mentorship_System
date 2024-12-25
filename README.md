@@ -1,4 +1,4 @@
-![bg4](https://github.com/user-attachments/assets/d463824d-f23e-4578-8105-b941292bcf3d)# 🌟 Mentorship System for College Professors 🌟
+### 🌟 Mentorship System for College Professors 🌟
 
 A **robust and intuitive Mentorship System** designed to facilitate seamless interaction and management among mentors, mentees, and managers. Developed as a collaborative project during the second semester with three team members, this application leverages **advanced data structures** to enhance functionality and efficiency.
 
