@@ -1,4 +1,4 @@
-# 🌟 Mentorship System for College Professors 🌟
+![bg4](https://github.com/user-attachments/assets/d463824d-f23e-4578-8105-b941292bcf3d)# 🌟 Mentorship System for College Professors 🌟
 
 A **robust and intuitive Mentorship System** designed to facilitate seamless interaction and management among mentors, mentees, and managers. Developed as a collaborative project during the second semester with three team members, this application leverages **advanced data structures** to enhance functionality and efficiency.
 
@@ -34,6 +34,12 @@ A **robust and intuitive Mentorship System** designed to facilitate seamless int
 
 **Database**: MySQL
 
+## Snaps of the website
 
+![bg1](https://github.com/user-attachments/assets/ec7427cc-9c30-4a74-9a3d-3b58f33f8b52)
 
+![bg2](https://github.com/user-attachments/assets/91dd001d-498e-485e-97b0-4364ee4153e9)
 
+![bg3](https://github.com/user-attachments/assets/23363d0d-1727-4c57-a509-5e3f474e53be)
+
+![bg4](https://github.com/user-attachments/assets/3fa35bcc-7ae4-41bc-aece-967392666642)
